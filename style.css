@@ -1,0 +1,93 @@
+/*
+general
+*/
+body{ background:#003153; color:#fff;}
+
+/* header*/
+header{ background:url(images/section-1_01.jpg) top center repeat-y; min-height:760px; padding:50px; width:100%;}
+
+/*navbar*/
+.navbar{ background:0; border:0; padding:0;}
+
+.navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover{ background:0; color:#ff9; border-bottom:3px solid #ff0;}
+  
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover{ color:#fff;}
+
+.search .btn-success{ background:#16a085; border-color:#16a085; }
+
+
+/*slogan*/
+
+.slogan{ margin-top:7%;}
+.slogan h3{ font-size:36px; color:#fff; font-weight:300; font-family:Tahoma, Geneva, sans-serif; margin-bottom:50px;}
+.slogan h1{ font-size:50px; color:#f8d304; font-family:Tahoma, Geneva, sans-serif; margin-bottom:50px;}
+.slogan p{ font-size:24px; color:#fff; font-family:Tahoma, Geneva, sans-serif; margin-bottom:70px; line-height:150%; text-align:justify;}
+.slogan p span{ font-size:24px; color:#ff0; font-family:Tahoma, Geneva, sans-serif; text-decoration:underline;}
+
+/* buttons */
+.buttons .dev {  background:#16a085; border:0;}
+.buttons .btn { line-height:24px;}
+
+/*Portfolio*/
+.portfolio { background:url(images/section-2_02.jpg) repeat-y top center; min-height:760px; width:100%;}
+
+.portfolio h1 { font-size:26px; font-family:Tahoma, Geneva, sans-serif; color:#16a085; margin-bottom:40px; margin-top:40px;}
+.portfolio p { font-size:20px; font-family:Tahoma, Geneva, sans-serif; color:#505252; text-align:justify; line-height:150%; margin-bottom:20px;}
+
+
+/* courses*/
+
+.courses{ background:url(images/section-3_03.jpg) repeat-y top center; min-height:760px; width:100%;}
+
+.courses h1{ color:#ff0; font-family:Tahoma, Geneva, sans-serif; margin:40px 0;}
+
+.prenext{ margin:40px 0;}
+
+.crs h4{ font-size:16px; font-family:Tahoma, Geneva, sans-serif; background:#15a085; height:40px; width:100%; text-align:center; margin:0; padding:0; line-height:40px; border-radius:3px 3px 0 0;}
+
+
+
+.crs:nth-child(2) h4 { background:#27ae60;}
+.crs:nth-child(3) h4 { background:#1a5e98;}
+.crs:nth-child(4) h4 { background:#2c3e50;}
+.crs:nth-child(5) h4 { background:#315478;}
+.crs:nth-child(6) h4 { background:#27ae60;}
+
+.courses .prenext{ border-radius:7px;}
+
+/* gallery*/
+
+.Gallery{ background:url(images/gallery_03.jpg) repeat-y top center; min-height:760px; width:100%;}
+
+.slides { padding-top:113px; padding-left:72px;}
+.arrows { margin-top:340px;}
+/* student courses */
+.student_courses { background:url(images/section-5_03.jpg) repeat-y top center; min-height:760px; width:100%;}
+.student_courses h1 { color:#ff0; font-family:Tahoma, Geneva, sans-serif; margin:40px 0;}
+.program { margin:40px 0;}
+.btns { width:150px; height:37px; color:#000;}
+.student_courses img { margin-bottom:40px;}
+
+/*articles*/
+.Articles {background:url(images/section-6_04.jpg) repeat-y top center; min-height:760px; width:100%;}
+.Articles h1 { color:#ff0; font-family:Tahoma, Geneva, sans-serif; margin:40px; 0;}
+.article { margin:40px; 0;}
+.btns { width:150px; height:37px; color:#000;}
+.Articles h4 { background:#104969; text-align:center; min-height:80px; padding:3%; color:#ff0; width:100%; margin:0; margin-bottom:20px;}
+
+/*contacts*/
+.Contacts { background:url(images/section_7_02.jpg) repeat-y top center; min-height:760px; width:100%;}
+.Contacts h1 { color:#ff0; font-family:Tahoma, Geneva, sans-serif; margin:40px; 0;}
+
+.Contacts input[type=text], .Contacts input[type=email] { width:80%; background:0; margin-bottom:20px; color:#fff;}
+.Contacts textarea { margin-bottom:20px; background:0; color:#fff;}
+.Contacts input[type=submit] { width:40%;}
+.s_links { clear:both; margin-bottom:20px;}
+.s_links h3 { font-size:18px; line-height:42px;}
+.s_links img { float:left; margin-right:20px;}
+
+/* copy */
+.copy { margin-top:100px;}
+.copy a { text-decoration:none; color:#ff0;}
